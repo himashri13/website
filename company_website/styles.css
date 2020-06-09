@@ -1,0 +1,101 @@
+body{
+    background-color: rosybrown;
+    color: rgb(82, 65, 182);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+header,footer{
+    background-color: whitesmoke;
+    background-image: url('fall.gif');
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    line-height: 10px;
+}
+/* main nav */
+nav{
+    background-color: lightblue;
+    overflow: hidden;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    float: left;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(78, 15, 94);
+    padding: 10px 25px;
+    display: inline;
+    font-size: 18px;
+    
+}
+nav ul li a:hover{
+    background-color: mediumseagreen;
+}
+
+nav ul li a.active{
+    background-color: pink;
+}
+/*sidebar*/
+aside{
+    background-color: linen;
+    
+    float: left;
+    width: 200px;
+    text-align: center;
+    height: 550px;
+    overflow-y: scroll;
+
+}
+aside ul{
+    list-style-type: none;
+    margin:auto;
+    padding:20;
+}
+aside ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: olive;
+    padding:25px 45px;
+    display: block;
+    font-size: 16px;
+
+}
+aside ul li a:hover{
+    background-color: palegreen;
+    color: purple;
+}
+
+/*main section*/
+section{
+    margin-left: 200px;
+    border-left: rgb(78, 15, 94);
+    padding: 10px;
+
+}
+
+details{
+    background-color: linen;
+    margin: 5px;
+    padding: 10px;
+    color: mediumvioletred;
+    border-radius: 50px;
+
+}
+article{
+    background-color: lightcyan;
+    color: lightcoral;
+    border-radius: 50px;
+}
+summary{
+    outline: none;
+}
+
